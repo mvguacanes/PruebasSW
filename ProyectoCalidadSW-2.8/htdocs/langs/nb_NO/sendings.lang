@@ -1,0 +1,47 @@
+# Dolibarr language file - no_NB - sendings
+CHARSET=UTF-8
+RefSending=Ref. levering
+Sending=Levering
+Sendings=Leveringer
+Receivings=Mottak
+SendingsArea=Leveringsområde
+ListOfSendings=Oversikt over leveringer
+SendingMethod=Leveringsmåte
+SendingReceipt=Leveringskvittering
+LastSendings=Siste %s leveringer
+SearchASending=Finn levering
+StatisticsOfSendings=Statistikk
+NbOfSendings=Antall leveringer
+SendingCard=Leveringekort
+NewSending=Ny levering
+CreateASending=Lag en levering
+CreateSending=Lag levering
+QtyOrdered=Ant. bestilt
+QtyShipped=Ant. levert
+QtyToShip=Ant. å levere
+QtyReceived=Ant. mottatt
+KeepToShip=Keep to ship
+OtherSendingsForSameOrder=Andre leveringer på denne ordren
+DateSending=Leveringsdato
+DateSendingShort=Leveringsdato
+SendingsForSameOrder=Leveringer på denne ordre
+SendingsAndReceivingForSameOrder=Leveringer og mottak på denne ordren
+SendingsToValidate=Leveringer til godkjenning
+StatusSendingDraft=Kladd
+StatusSendingValidated=Godkjent (klar til levering eller allerede levert)
+StatusSendingDraftShort=Kladd
+StatusSendingValidatedShort=Godkjent
+SendingSheet=Pakkseddel
+Carriers=Transportører
+Carrier=Transportør
+CarriersArea=Transportørområde
+NewCarrier=Ny stransportør
+ConfirmDeleteSending=Er du sikker på at du vil slette denne leveringen?
+ConfirmValidateSending=Er du skker på at du vil godkjenne denne leveringen?
+ConfirmCancelSending=Er du sikker på at du vil avbryte denne leveringen?
+GenericTransport=Standardtransport
+Enlevement=Hentet av kunde
+DocumentModelSimple=ENkel dokumentmodell
+
+# NumRef
+NumRefModelJade=Gir et referansenummer med formatet BLÅÅ00001, ... hvor ÅÅ viser året. Det siste tallet blir aldri tilbakestilt til null.

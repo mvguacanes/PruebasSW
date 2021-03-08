@@ -1,0 +1,11 @@
+index.php
+*.htaccess
+*.settings
+*.buildpath
+*.project
+*.cache
+*.log
+*.DS_Store
+document
+documents
+DEBIAN

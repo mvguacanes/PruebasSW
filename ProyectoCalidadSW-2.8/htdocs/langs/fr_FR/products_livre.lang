@@ -1,0 +1,6 @@
+# Dolibarr language file - fr_FR - products
+CHARSET=UTF-8
+NewBook=Nouveau livre
+ListBook=Livres
+ListCover=Couvertures
+ListContract=Contrats

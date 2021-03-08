@@ -1,0 +1,18 @@
+# Dolibarr language file - no_NB - trips
+CHARSET=UTF-8
+Trip=Reise
+Trips=Reiser
+TripsAndExpenses=Reiser og utgifter
+TripCard=Reisekort
+AddTrip=Legg til reise
+ListOfTrips=Oversikt over reiser
+ListOfFees=Oversikt over avgifter
+NewTrip=Ny reise
+CompanyVisited=Firma/organiasjon besøkt
+Kilometers=Kilometer
+FeesKilometersOrAmout=Beløp eller kilometer
+DeleteTrip=Slett reise
+ConfirmDeleteTrip=Er du sikker på at du vil slette denne reisen?
+TF_OTHER=Annet
+TF_LUNCH=Lunsj
+TF_TRIP=Reise

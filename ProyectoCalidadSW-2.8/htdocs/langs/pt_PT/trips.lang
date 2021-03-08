@@ -1,0 +1,25 @@
+# Dolibarr language file - pt_PT - trips
+CHARSET=UTF-8
+Trip=Deslocação
+Trips=Deslocações
+TripsAndExpenses=Deslocações e Despesas
+TripId=Id Deslocação
+TripCard=Ficha de Deslocação
+AddTrip=Adicionar Deslocação
+ListOfTrips=Lista de Deslocações
+ListOfFees=Lista de Taxas
+NewTrip=Nova Deslocação
+CompanyVisited=Empresa/Instituição Visitada
+Kilometers=Kilometros
+FeesKilometersOrAmout=Quantidade de Kilometros
+DeleteTrip=Eliminar Deslocação
+ConfirmDeleteTrip=¿Está seguro de querer eliminar esta deslocação?
+TF_OTHER=Outro
+TF_LUNCH=Alimentação
+TF_TRIP=Viagem
+
+
+// START - Lines generated via autotranslator.php tool (2009-08-13 21:10:10).
+// Reference language: en_US
+ListTripsAndExpenses=Lista de viagens e gastos
+// STOP - Lines generated via autotranslator.php tool (2009-08-13 21:10:10).

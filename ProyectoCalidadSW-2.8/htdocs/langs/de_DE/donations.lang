@@ -1,0 +1,42 @@
+/*
+ * Language code: de_DE
+ * Automatic generated via autotranslator.php tool
+ * Generation date 2009-01-20 00:09:12
+ */
+
+
+// Date 2009-01-20 00:09:12
+// START - Lines generated via autotranslator.php tool.
+// Reference language: en_US
+CHARSET=UTF-8
+Donation=Spenden
+Donationss=Spenden
+Donor=Spender
+Donors=Spender
+AddDonation=Fügen Sie eine Spende
+NewDonation=Neue Spende
+DonationPromise=Geschenk-Versprechen
+PromisesNotValid=Nicht validiert Versprechen
+PromisesValid=Validierte Versprechen
+DonationsPaid=Spenden bezahlt
+DonationsReceived=Spenden
+PublicDonation=Öffentliche Spenden
+DonationsNumber=Spenden Anzahl
+DonationsArea=Spenden Bereich
+DonationStatusPromiseNotValidated=Entwurf Versprechen
+DonationStatusPromiseValidated=Validierte Versprechen
+DonationStatusPaid=Spende erhalten
+DonationStatusPromiseNotValidatedShort=Entwurf
+DonationStatusPromiseValidatedShort=Validated
+DonationStatusPaidShort=Received
+ValidPromise=Validate Versprechen
+BuildDonationReceipt=Build-Eingang
+DonationsModels=Dokumente, Modelle für die Spende Einnahmen
+// Date 2009-01-20 00:09:12
+// STOP - Lines generated via parser
+
+
+// START - Lines generated via autotranslator.php tool (2009-08-13 20:42:36).
+// Reference language: en_US
+Donations=Spenden
+// STOP - Lines generated via autotranslator.php tool (2009-08-13 20:42:36).

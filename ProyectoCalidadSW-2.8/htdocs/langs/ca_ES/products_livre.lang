@@ -1,0 +1,6 @@
+# Dolibarr language file - ca_ES - products
+CHARSET = UTF-8
+NewBook=Nou llibre
+ListBook=Llibres
+ListCover=Cobertures
+ListContract=Contractes

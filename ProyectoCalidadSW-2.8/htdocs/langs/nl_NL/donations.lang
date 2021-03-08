@@ -1,0 +1,25 @@
+# Dolibarr language file - nl_NL - donations
+CHARSET=UTF-8
+Donation=Donatie
+Donationss=Donaties
+Donor=Donor
+Donors=Donoren
+AddDonation=Een donatie toevoegen
+NewDonation=Nieuwe donatie
+DonationPromise=Donatie toezegging
+PromisesNotValid=Niet gevalideerd toezegging
+PromisesValid=Gevalideerde toezegging
+DonationsPayed=Donaties betaald
+DonationsReceived=Donaties ontvangen
+PublicDonation=Openbare donatie
+DonationsNumber=Donatienummer
+DonationsArea=Donaties gebied
+DonationStatusPromiseNotValidated=Voorlopige toezegging
+DonationStatusPromiseValidated=Gevalideerde toezegging
+DonationStatusPayed=Donatie ontvangen
+DonationStatusPromiseNotValidatedShort=Voorlopig
+DonationStatusPromiseValidatedShort=Gevalideerd
+DonationStatusPayedShort=Ontvangen
+ValidPromise=Valideer toezegging
+BuildDonationReceipt=Creëer donatie ontvangstbewijs
+DonationsModels=Documenten modellen voor donatie ontvangsten

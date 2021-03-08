@@ -1,0 +1,218 @@
+# Dolibarr language file - nl_NL - install
+CHARSET=UTF-8
+InstallEasy=We hebben geprobeerd om de Dolibarr installatie zo eenvoudig mogelijk. Volg de instructies stap voor stap.
+MiscellanousChecks=Voorwaarden controleren
+DolibarrWelcome=Welkom bij Dolibarr
+ConfFileExists=Het configuratiebestand <b>%s</b> bestaat.
+ConfFileDoesNotExists=Het configuratiebestand <b>%s</b> bestaat niet!
+ConfFileDoesNotExistsAndCouldNotBeCreated=Het configuratiebestand <b>%s</b> bestaat niet en kan niet worden gemaakt!
+ConfFileCouldBeCreated=Het configuratiebestand <b>%s</b> kan worden gecreëerd.
+ConfFileIsNotWritable=Het configuratiebestand <b>%s</b> is niet schrijfbaar. Check machtigingen. Bij de eerste installatie, Moet uw web-server de rechten hebben om te kunnen schrijven tijdens de configuratie proces ( zoals "chmod 666" bijvoorbeeld op Unix OS).
+ConfFileIsWritable=Het configuratiebestand <b>%s</b> is schrijfbaar.
+PHPSupportSessions=Deze PHP ondersteunt sessies.
+PHPSupportPOSTGETOk=Deze PHP ondersteunt variabelen POST en GET.
+PHPSupportPOSTGETKo=Het is mogelijk uw PHP configuratie geen POST en/of GET variabelen ondersteund. Controleer uw <b>variables_order</b> parameter in php.ini.
+PHPSupportGD=Deze PHP ondersteuning GD grafische functies.
+PHPSupportUTF8=Deze PHP ondersteuning UTF8 functies.
+PHPMemoryOK=Uw PHP max. session geheugen is ingesteld op <b>%s</b>. Dit moet genoeg zijn.
+PHPMemoryTooLow=Uw PHP max. session geheugen is ingesteld op <b>%s</b> bytes. Dit zou te laag kunnen zijn. Verander in uw <b>php.ini</b> de instelling van de <b>memory_limit</b> parameter tot ten minste <b>%s</b> bytes.
+Recheck=Klik hier voor een meer significante test
+ErrorPHPDoesNotSupportSessions=Uw PHP installatie ondersteunt geen sessies. Deze functie is vereist om met Dolibarr te werken. Controleer uw PHP installatie.
+ErrorPHPDoesNotSupportGD=Uw PHP installatie biedt geen ondersteuning voor grafische functie GD. Geen grafiek zal beschikbaar zijn.
+ErrorPHPDoesNotSupportUTF8=Uw PHP installatie biedt geen ondersteuning voor UTF8 functies. Dolibarr kan hierdoor niet goed werken. Los dit op, voordat u Dolibarr kunt gebruiken.
+ErrorDirDoesNotExists=Map %s niet bestaat.
+ErrorGoBackAndCorrectParameters=Ga terug en corrieer de nu verkeerde parameters.
+ErrorWrongValueForParameter=Mogelijk hebt u een verkeerde waarde voor parameter '%s' getypt.
+ErrorFailedToCreateDatabase=Gefaald de database '%s' te maken.
+ErrorFailedToConnectToDatabase=Kan geen verbinding maken met database '%s'.
+ErrorPHPVersionTooLow=Uw PHP versie is te oud. Versie %s is vereist.
+ErrorConnectedButDatabaseNotFound=Verbinding maken met server succesvol maar database '%s' niet gevonden.
+ErrorDatabaseAlreadyExists=Database '%s' bestaat reeds.
+IfDatabaseNotExistsGoBackAndUncheckCreate=Als de database niet bestaat, ga terug en vink de optie "Maak database".
+IfDatabaseExistsGoBackAndCheckCreate=Als database al bestaat, ga terug en verwijder het vinkje bij de "Maak database" optie.
+PHPVersion=PHP versie
+YouCanContinue=U kunt doorgaan ...
+PleaseBePatient=Even geduld aub ...
+License=Met behulp van licentie
+ConfigurationFile=Configuratiebestand
+WebPagesDirectory=Map waarin webpagina's worden opgeslagen
+DocumentsDirectory=Map om geüploade en gegenereerde documenten op te slaan
+URLRoot=URL Root (basis URL)
+DolibarrDatabase=Dolibarr Database
+DatabaseChoice=Database keuze
+DatabaseType=Database type
+DriverType=Driver type
+Server=Server
+ServerAddressDescription=Naam of IP-adres voor de database server, meestal 'localhost' als de database wordt gehost op dezelfde server als de web-server
+ServerPortDescription=Database server poort. Laat leeg indien onbekend.
+DatabaseServer=Database servernaam (hostname)
+DatabaseName=Database naam
+Login=Inloggen
+AdminLogin=Login voor Dolibarr database beheerder. 
+Password=Wachtwoord
+PasswordAgain=Bevestig uw wachtwoord opnieuw
+AdminPassword=Wachtwoord voor Dolibarr database beheerder. 
+CreateDatabase=Creëer database
+CreateUser=Creëer gebruiker
+DatabaseSuperUserAccess=Database server - superuser toegang
+CheckToCreateDatabase=Vink vakje aan, als database bestaat niet en moet worden gemaakt. <br> In dit geval dient u de login en wachtwoord van de superuser aan de onderzijde van deze pagina invullen.
+CheckToCreateUser=Vink vakje aan, als login niet bestaat en moet worden gemaakt. <br> In dit geval moet u de login en wachtwoord kiezen en ook de login/wachtwoord voor het superuser account op de onderzijde van deze pagina. Als er geen vinkje staat, moeten de database user en wachtwoord reeds bestaan.
+Experimental=(experimenteel, niet operationeel)
+DatabaseRootLoginDescription=Login van de gebruiker met de mogelijk om nieuwe databases of nieuwe gebruikers aan te maken, nutteloos als uw database en login al bestaan (zoals wanneer u host bij een web hosting provider).
+KeepEmptyIfNoPassword=Laat leeg als gebruiker geen wachtwoord heeft (vermijd dit)
+SaveConfigurationFile=Waarden opslaan
+ConfigurationSaving=Configuratiebestand opslaan
+ServerConnection=Server verbinding
+DatabaseConnection=Database verbinding
+DatabaseCreation=Database creëren
+UserCreation=Gebruiker creëren
+CreateDatabaseObjects=Database objecten creëren
+ReferenceDataLoading=Referentie gegevens laden
+TablesAndPrimaryKeysCreation=Tabellen en primaire sleutels creëring
+CreateTableAndPrimaryKey=Maak tabel %s
+CreateOtherKeysForTable=Maak vreemde sleutels en indexen voor tabel %s
+OtherKeysCreation=Vreemde sleutels en indexen creëring
+FunctionsCreation=Functies creëren
+AdminAccountCreation=Administrator login creëring
+PleaseTypePassword=Typ een wachtwoord, lege wachtwoorden zijn niet toegestaan!
+PleaseTypeALogin=Geef een login!
+PasswordsMismatch=Wachtwoorden verschillen, probeer het opnieuw!
+SetupEnd=Einde van de setup
+SystemIsInstalled=Deze installatie is voltooid.
+SystemIsUpgraded=Dolibarr is met succes opgewaardeerd.
+YouNeedToPersonalizeSetup=U moet Dolibarr configureren om voor uw behoeften (uiterlijk, de functies, ...). Om dit te doen, volgt u de onderstaande link:
+AdminLoginCreatedSuccessfuly=Dolibarr beheerder login <b>'%s'</b> is succesvol gemaakt.
+GoToDolibarr=Ga naar Dolibarr
+GoToSetupArea=Ga naar Dolibarr (setup)
+MigrationNotFinished=De versie van uw database is niet helemaal up-to-date, dus u zult het upgrade-proces opnieuw moeten uitvoeren.
+GoToUpgradePage=Ga opnieuw naar de upgrade pagina
+Examples=Voorbeelden
+WithNoSlashAtTheEnd=Zonder de schuine streep '/' aan het eind
+DirectoryRecommendation=Het is aanbevolen dat deze map buiten de webpagina's map zich bevind.
+LoginAlreadyExists=Bestaat al
+DolibarrAdminLogin=Dolibarr admin login
+FailedToCreateAdminLogin=Creëren van het Dolibarr administrator account is mislukt.
+AdminLoginAlreadyExists=Dolibarr administrator account <b>'%s'</b> bestaat reeds.
+WarningRemoveInstallDir=Waarschuwing, om veiligheidsredenen, nadat de installatie of upgrade is voltooid, moet u de <b>install map</b> verwijderen of hernoemen naar install.lock om misbruik te voorkomen.
+ThisPHPDoesNotSupportTypeBase=Dit PHP-systeem biedt geen ondersteuning voor enig interface om toegang te krijgen tot database type %s
+FunctionNotAvailableInThisPHP=Niet beschikbaar met deze PHP
+MigrateScript=Migreer script
+ChoosedMigrateScript=Gekozen migratie script
+DataMigration=Data migratie
+DatabaseMigration=Database structuur migratie
+ProcessMigrateScript=Script verwerking
+ChooseYourSetupMode=Kies uw setup-modus en klik op "Start" ...
+FreshInstall=Nieuwe installatie
+FreshInstallDesc=Gebruik deze modus als dit uw eerste installatie is. Zo niet, kan deze modus een eerdere onvolledige installatie repareren, maar als u wilt een upgrade van uw versie wilt, kies dan "Upgrade"-modus.
+Upgrade=Upgrade
+UpgradeDesc=Gebruik deze modus als u oudere Dolibarr bestanden hebt vervangen door bestanden van een nieuwere versie. Dit zal uw database en gegevens updaten.
+Start=Start
+InstallNotAllowed=Setup niet toegestaan door <b>conf.php</b> machtigingen
+NotAvailable=Niet beschikbaar
+YouMustCreateWithPermission=U moet bestand %s creëren en zet schrijf permissies op voor de web-server tijdens het installatieproces.
+CorrectProblemAndReloadPage=Gelieve het probleem op te lossen en herlaad pagina.
+AlreadyDone=Al gemigreerd
+DatabaseVersion=Database versie
+ServerVersion=Database server versie
+YouMustCreateItAndAllowServerToWrite=Moet u deze map creëren en de web server dient schrijfrechten hiervoor te hebben.
+CharsetChoice=Tekenset keuze
+CharacterSetClient=Tekenset gebruikt voor gegenereerde HTML-webpagina's
+CharacterSetClientComment=Kies tekenset voor web beeld. <br/> Standaard voorgesteld karakter set is die van uw database.
+CollationConnection=Teken sorteer volgorde
+CollationConnectionComment=Kies pagina code die defineert de karakter sorteer volgorde zoals gebruikt door de database. Deze parameter wordt ook wel door sommige databanken 'collation' (verzamelen) genoemd. <br/> Deze parameter kan niet worden gedefinieerd als de database al bestaat.
+CharacterSetDatabase=Tekenset voor database
+CharacterSetDatabaseComment=Kies tekenset gewild om de database te creëren. <br/> Deze parameter kan niet worden gedefinieerd als database al bestaat.
+YouAskDatabaseCreationSoDolibarrNeedToConnect=U vraagt om database <b>%s</b> te creëren, maar hiervoor heeft Dolibarr een verbinding nodig met server <b>%s</b> met superuser <b>%s</b> machtigingen.
+YouAskLoginCreationSoDolibarrNeedToConnect=U vraagt om database login <b>%s</b> te creëren, maar hiervoor heeft Dolibarr een verbinding nodig met server <b>%s</b> met superuser <b>%s</b> machtigingen.
+BecauseConnectionFailedParametersMayBeWrong=Als de verbinding mislukt, host of superuser gegevens zullen verkeerd zijn.
+OrphelinsPaymentsDetectedByMethod=Wezen betaling gedetecteerd door methode %s
+RemoveItManuallyAndPressF5ToContinue=Verwijder het handmatig en herlaad de pagina om verder te gaan.
+KeepDefaultValuesWamp=U gebruikt de Dolibarr wizard voor het instellen van DoliWamp, dus de hier voorgestelde waarden zijn al geoptimaliseerd. Verander ze alleen als u weet wat u doet.
+KeepDefaultValuesDeb=U gebruikt de Dolibarr wizard van een Ubuntu of Debian achtig package, dus de hier voorgestelde waarden zijn al geoptimaliseerd. Verander ze alleen als u weet wat u doet.
+KeepDefaultValuesMamp=U gebruikt de Dolibarr wizard voor het instellen van DoliMamp, dus de hier voorgestelde waarden zijn al geoptimaliseerd. Verander ze alleen als u weet wat u doet.
+FieldRenamed=Veld naam
+IfLoginDoesNotExistsCheckCreateUser=Als de login nog niet bestaat, moet u de optie 'Creëer gebruiker' aanvinken
+ErrorConnection=Server <b>'%s'</b>, database naam <b>'%s'</b>, login <b>'%s'</b> of database wachtwoord kan verkeerd zijn of PHP client versie kan te oud zijn in vergelijking met de database versie.
+InstallChoiceRecommanded=Aanbevolen keuze te installeren versie <b>%s</b> van uw huidige versie <b>%s</b>
+InstallChoiceSuggested=<b>Installeer voorgestelde keuze.</b>
+CheckThatDatabasenameIsCorrect=Controleer of de database naam "<b>%s</b>" juist is.
+IfAlreadyExistsCheckOption=Als de naam juist is, maar de database bestaat niet, moet u de optie "Maak Database" kiezen.
+OpenBaseDir=Parameter php openbasedir
+YouAskToCreateDatabaseSoRootRequired=U hebt het selectievak "Maak Database" geselecteerd. Hiervoor zijn de inlognaam en wachtwoord van de root (standaard inlog) verplicht.
+YouAskToCreateDatabaseUserSoRootRequired=U hebt het selectievak "Maak gebruiker-eigenaar" Geselecteerd. Hiervoor zijn de inlognaam en wachtwoord van de root (standaard inlog) verplicht.
+NextStepMightLastALongTime=De volgende stap kan enkele minuten duren. Na het verzenden, dank u voor het wachten op de volledige weergave van de volgende pagina.
+
+#########
+# upgrade
+#########
+MigrationFixData=Fix voor gedenormaliseerd gegeven
+MigrationOrder=Data migratie voor klant orders
+MigrationSupplierOrder=Data migratie voor leverancier orders
+MigrationProposal=Data migratie voor offertes
+MigrationInvoice=Data migratie voor klant facturen
+MigrationContract=Data migratie voor contracten
+MigrationSuccessfullUpdate=Upgrade succesvol
+MigrationUpdateFailed=De update is mislukt
+MigrationRelationshipTables=Migratie van de relatie tabellen (%s)
+
+# Payments Update
+MigrationPaymentsUpdate=Betalingsgegevens correctie
+MigrationPaymentsNumberToUpdate=%s Betalingsgegeven(s) actualiseren
+MigrationProcessPaymentUpdate=Update betaling(s) %s
+MigrationPaymentsNothingToUpdate=Niets meer te doen
+MigrationPaymentsNothingUpdatable=Geen betalingen meer, die kunnen worden gecorrigeerd
+
+# Contracts Update
+MigrationContractsUpdate=Contract gegevens correctie
+MigrationContractsNumberToUpdate=%s overeenkomst(en) actualiseren
+MigrationContractsLineCreation=Maak contract voor contract ref %s
+MigrationContractsNothingToUpdate=Niets meer te doen
+MigrationContractsFieldDontExist=Veld fk_facture bestaat niet meer. Niets te doen.
+
+# Contracts Empty Dates Update
+MigrationContractsEmptyDatesUpdate=Contract lege datum correctie
+MigrationContractsEmptyDatesUpdateSuccess=Contract lege datum correctie succesvol gedaan
+MigrationContractsEmptyDatesNothingToUpdate=Geen contract lege datum te corrigeren
+MigrationContractsEmptyCreationDatesUpdateSuccess=Ok tijd voor het creëren
+MigrationContractsEmptyCreationDatesNothingToUpdate=Geen contract aanmaakdatum te corrigeren
+
+# Contracts Invalid Dates Update
+MigrationContractsInvalidDatesUpdate=Onjuiste datum waarde contract correctie
+MigrationContractsInvalidDateFix=Correctie contract %s (Contract datum=%s, Start dienst datum min=%s)
+MigrationContractsInvalidDatesNumber=%s gemodificeerde contracten
+MigrationContractsInvalidDatesNothingToUpdate=Geen datum met onjuiste waarde te corrigeren
+
+# Contracts Incoherent Dates Update
+MigrationContractsIncoherentCreationDateUpdate=Onjuiste waarde contract aanmaakdatum correctie
+MigrationContractsIncoherentCreationDateUpdateSuccess=Onjuiste waarde contract aanmaakdatum correctie gedaan succes
+MigrationContractsIncoherentCreationDateNothingToUpdate=Geen onjuiste waarde voor de totstandkoming van contracten datum te corrigeren
+
+# Reopening Contracts
+MigrationReopeningContracts=Open contract gesloten door fout
+MigrationReopenThisContract=Heropenen opdracht %s
+MigrationReopenedContractsNumber=%s gemodificeerde contracten
+MigrationReopeningContractsNothingToUpdate=Geen gesloten contract te openen
+
+# Migration transfert
+MigrationBankTransfertsUpdate=Update gegevens tussen bank transactie en een bank transfer
+MigrationBankTransfertsNothingToUpdate=Alle links zijn up-to-date
+
+# Migration delivery
+MigrationShipmentOrderMatching=Verzendbewijs update
+MigrationDeliveryOrderMatching=Ontvangstbewijs update
+MigrationDeliveryDetail=Bezorgings update
+
+# Migration stock
+MigrationStockDetail=Update producten voorraad
+
+# Migration menus
+MigrationMenusDetail=Update dynamische menu's tabellen
+
+# Migration delivery address
+MigrationDeliveryAddress=Update afleveradres bij levering
+
+# Migration project task actors
+MigrationProjectTaskActors=Migratie Tabellen llx_projet_task_actors
+
+# Migration project user resp
+MigrationProjectUserResp=Migratie gebied fk_user_resp van llx_projet te llx_element_contact

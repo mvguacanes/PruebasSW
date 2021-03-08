@@ -1,0 +1,60 @@
+# Dolibarr language file - nl_NL - sendings
+CHARSET=UTF-8
+RefSending=Referentie verzending
+Sending=Verzending
+Sendings=Verzendingen
+Receivings=Ontvangsten
+SendingsArea=Verzendingen gedeelte
+ListOfSendings=Verzendlijst
+SendingMethod=Verzendmethode
+SendingReceipt=Pakbon
+LastSendings=Laatste %s verzendingen
+SearchASending=Zoek een zending
+StatisticsOfSendings=Statistieken van verzendingen
+NbOfSendings=Aantal zendingen
+SendingCard=Verzendbon
+NewSending=Nieuwe verzending
+CreateASending=Maak een verzending
+CreateSending=Maak verzending
+QtyOrdered=Aantal bestellingen
+QtyShipped=Aantal verzonden
+QtyToShip=Aantal Verzendklaar
+QtyReceived=Aantal ontvangen
+KeepToShip=Houd verzendklaar
+OtherSendingsForSameOrder=Andere verzendingen voor deze bestelling
+DateSending=Datum versturing bestelling
+DateSendingShort=Datum versturing bestelling
+SendingsForSameOrder=Verzendingen voor deze bestelling
+SendingsAndReceivingForSameOrder=Verzendingen en ontvangsten voor deze bestelling
+SendingsToValidate=Valideer verzending
+StatusSendingCanceled=Geannuleerd
+StatusSendingDraft=Ontwerp
+StatusSendingValidated=Gevalideerd (producten te versturen of reeds verzonden)
+StatusSendingCanceledShort=Geannuleerd
+StatusSendingDraftShort=Ontwerp
+StatusSendingValidatedShort=Gevalideerd
+SendingSheet=Verzendbrief
+Carriers=Vervoerders
+Carrier=Vervoerder
+CarriersArea=Vervoerders gebied
+NewCarrier=Nieuwe vervoerder
+ConfirmDeleteSending=Weet u zeker dat u deze zending wilt verwijderen?
+ConfirmValidateSending=Weet u zeker dat u deze zending wilt valideren?
+ConfirmCancelSending=Weet u zeker dat u wilt annuleren dit sturen?
+GenericTransport=Generiek vervoer
+Enlevement=Afhalen door klant
+DocumentModelSimple=Eenvoudig document model
+WarningNoQtyLeftToSend=Waarschuwing, geen producten in afwachting van de levering.
+StatsOnShipmentsOnlyValidated=Statistieken uitgevoerd alleen betreffende de gevalideerde versturing
+
+# Sending methods
+SendingMethodCATCH=Verwijdering door de klant
+SendingMethodTRANS=Vervoerder
+SendingMethodCOLSUI=Colissimo
+
+# NumRef
+NumRefModelJade=Terugkeer van een referentienummer met formaat BLYY00001, ... waar is YY jaar. Aantal op het einde is nooit nul.
+
+# ModelDocument
+DocumentModelSirocco=Voorbeeld voor eenvoudige ontvangstbewijs
+DocumentModelTyphon=Model ontvangstbewijs volledige levering (logo...)
